@@ -1,12 +1,13 @@
 php:
   preset: laravel
   disabled:
-    - no_unused_imports
+    - unused_use
   finder:
     not-name:
       - index.php
+      - server.php
 js:
   finder:
     not-name:
-      - vite.config.js
+      - webpack.mix.js
 css: true
